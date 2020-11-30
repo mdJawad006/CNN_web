@@ -3,4 +3,4 @@ gunicorn==19.9.0
 pandas>=0.19
 numpy>=1.9.2
 Werkzeug==0.15.5
-Keras==2.2.4
+
