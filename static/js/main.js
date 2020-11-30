@@ -1,11 +1,3 @@
-"scripts": {
-   "start": "node main.js"
-}
-
-app.listen(process.env.PORT || 5000, function(){
-  console.log("Express server listening on port %d in %s mode", this.address().port, app.settings.env);
-});
-
 $(document).ready(function () {
     // Init
     $('.image-section').hide();
@@ -59,4 +51,4 @@ $(document).ready(function () {
         });
     });
 
-});
+}).listen(5000);;
