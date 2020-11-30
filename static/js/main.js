@@ -1,3 +1,9 @@
+"scripts": {
+   "start": "node main.js"
+}
+
+
+
 $(document).ready(function () {
     // Init
     $('.image-section').hide();
