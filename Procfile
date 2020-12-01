@@ -1,1 +1,1 @@
-web: gunicorn --chdir CNN_web app:app
+web: gunicorn app:app
